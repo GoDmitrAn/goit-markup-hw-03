@@ -151,6 +151,7 @@ padding: 200px 0px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 50px;
 }
 /* ********features******* */
 .features{
@@ -175,8 +176,20 @@ padding: 200px 0px;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
- 
-/* *********team****** */
+/* ***********************what we do****************** */
+.doing{
+  padding: 94px 0 ;
+}
+.doing-list{
+  display: flex;
+  margin-left: -30px;
+}
+.doing-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
+/* ***********************team****************** */
 .team-list .title {
   color: var(--primary-text-color);
 
